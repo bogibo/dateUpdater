@@ -7,7 +7,7 @@ require('dotenv').config()
  */
 const size = 100
 /**
- * Delay between requests
+ * Delay between requests groups
  * @type {number}
  */
 const delay = 500

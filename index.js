@@ -117,7 +117,7 @@ const editDate = (arr, token) => {
 
 ;(async() => {
   try{
-    const token = await axios.post('http://localhost:5000/api/carwash-stat/auth/login', {
+    const token = await axios.post(`${baseURL}/api/carwash-stat/auth/login`, {
       "username": process.env.USERNAME,
       "password": process.env.PASSWORD
     })
